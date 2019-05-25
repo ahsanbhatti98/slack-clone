@@ -1,0 +1,128 @@
+/* Write all your CSS here */
+
+/* Please indent properly */
+
+/* Please use only lower-case letters */
+
+/* Your webpage should be 100% responsive!!! */
+
+#main {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    border: 1px solid black;
+    width: 20%;
+    background: #3f0e40;
+    color: #987d99;
+}
+
+#chat-box {
+    border: 1px solid black;
+    width: 80%
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -17px;
+}
+
+#bell {
+    font-size: 29px;
+}
+
+#down {
+    font-size: 20px;
+}
+
+#header h2 {
+    font-weight: bold;
+    color: #fdf7f2;
+}
+
+#header+h4 {
+    margin: 0px;
+}
+
+#header+h4 i {
+    color: green;
+    font-size: 11px;
+}
+
+#input input {
+    background-color: #260027;
+    width: 90%;
+    height: 34px;
+    color: #99839a;
+    border: none;
+    /* padding: 22px; */
+    font-size: 25px;
+}
+
+#input {
+    margin-top: 17px;
+}
+
+#threds h2, i {
+    font-size: 18px;
+}
+
+
+
+#threds i {
+    padding-right: 5px;
+}
+
+#channel-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -27px;
+}
+#channel-head h2 a{
+    text-decoration: none;
+    color: #987d99;
+}
+#channel-head h2 a:hover{
+    color: white;
+}
+#channels li {
+    list-style: none;
+}
+
+#channels a {
+    text-decoration: none;
+    color: #9d859e;
+    font-size: 18px;
+}
+
+#channels ul {
+    padding-left: 0px;
+}
+#channels li:hover{
+background-color: #6f0d73;
+color: white;
+}
+
+#channels a i{
+    padding-right: 6px;
+    font-size: small;
+    
+}
+#add-channel i{
+    font-size: 12px;
+    padding-right: 9px;
+}
+#add-channel p{
+font-size: 18px;
+}
+#add-channel:hover{
+    background-color: #6f0d73
+}
+#add-channel a{
+    text-decoration: none;
+    color: #fdf7f2;
+}
