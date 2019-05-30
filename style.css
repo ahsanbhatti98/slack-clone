@@ -5,7 +5,12 @@
 /* Please use only lower-case letters */
 
 /* Your webpage should be 100% responsive!!! */
-
+*{
+    font-size: 17px;
+}
+body{
+    margin: 0px;
+}
 #main {
     display: flex;
     width: 100%;
@@ -13,14 +18,25 @@
 
 #sidebar {
     border: 1px solid black;
-    width: 20%;
+    width: 14%;
     background: #3f0e40;
     color: #987d99;
+    padding: 1px 21px 1px 12px;
+   
 }
-
+#mid{
+    border: 1px solid black;
+    width: 85%;
+    display: flex;
+}
 #chat-box {
     border: 1px solid black;
-    width: 80%
+    width: 85%;
+   
+}
+#asideBar{
+    border: 1px solid black;
+    width: 23%;
 }
 
 #header {
@@ -41,6 +57,7 @@
 #header h2 {
     font-weight: bold;
     color: #fdf7f2;
+    font-size: 24px;
 }
 
 #header+h4 {
@@ -70,8 +87,6 @@
     font-size: 18px;
 }
 
-
-
 #threds i {
     padding-right: 5px;
 }
@@ -82,13 +97,16 @@
     align-items: center;
     margin-bottom: -27px;
 }
-#channel-head h2 a{
+
+#channel-head h2 a {
     text-decoration: none;
     color: #987d99;
 }
-#channel-head h2 a:hover{
+
+#channel-head h2 a:hover {
     color: white;
 }
+
 #channels li {
     list-style: none;
 }
@@ -102,27 +120,41 @@
 #channels ul {
     padding-left: 0px;
 }
-#channels li:hover{
-background-color: #6f0d73;
-color: white;
+
+#channels li:hover {
+    background-color: #6f0d73;
+    color: white;
 }
 
-#channels a i{
+#channels a i {
     padding-right: 6px;
     font-size: small;
-    
 }
-#add-channel i{
+
+#add-channel i {
     font-size: 12px;
     padding-right: 9px;
 }
-#add-channel p{
-font-size: 18px;
+
+#add-channel p {
+    font-size: 18px;
 }
-#add-channel:hover{
+
+#add-channel:hover {
     background-color: #6f0d73
 }
-#add-channel a{
+
+#add-channel a {
     text-decoration: none;
     color: #fdf7f2;
+}
+#d-m>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#d-m+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
